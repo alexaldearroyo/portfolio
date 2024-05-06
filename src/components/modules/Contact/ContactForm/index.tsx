@@ -7,7 +7,7 @@ import Recaptcha from 'react-google-recaptcha';
 import * as Yup from 'yup';
 
 const ContactForm = () => {
-  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM as string);
+  const [state, handleSubmit] = useForm('mvoelyzd');
 
   return (
     <Formik
