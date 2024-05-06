@@ -33,7 +33,7 @@ const getRepos = async (): Promise<RepositoryEdge[]> => {
 			`,
     }),
     headers: {
-      Authorization: `bearer ${process.env.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}`,
+      Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
     },
     next: { revalidate: 10 },
   });
