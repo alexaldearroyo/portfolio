@@ -29,7 +29,6 @@ export const metadata: Metadata = {
     shortcut: '/assets/favicon/favicon.ico',
     apple: '/assets/favicon/apple-touch-icon.png',
   },
-  themeColor: '#6b63ff',
   twitter: {
     card: 'summary_large_image',
     creator: twitter,
@@ -38,6 +37,7 @@ export const metadata: Metadata = {
     site: url,
   },
   manifest: '/assets/favicon/site.webmanifest',
+  metadataBase: new URL(url),
 };
 
 const roboto = Roboto({
@@ -53,6 +53,9 @@ type RootLayoutProps = {
 
 const RootLayout = ({ children }: RootLayoutProps) => (
   <html lang="en" className={`${roboto.variable} font-sans scroll-smooth`}>
+    <head>
+      <meta name="theme-color" content="#6b63ff" /> {/* Añadir aquí */}
+    </head>
     <body>{children}</body>
   </html>
 );
