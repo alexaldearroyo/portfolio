@@ -3,7 +3,7 @@ const config = {
   url:
     process.env.NODE_ENV !== 'development'
       ? (process.env.NEXT_PUBLIC_PORTFOLIO_URL as string)
-      : 'http://localhost:3040',
+      : 'http://alexarroyo-portfolio.netlify.app',
   defaultDescription: 'I’m Alex Arroyo and I’m a Full-Stack Software Engineer!',
   googleAnalyticsID: 'G-PE8QW0ZGTZ',
   NEXT_PUBLIC_PORTFOLIO_URL: process.env.NEXT_PUBLIC_PORTFOLIO_URL as string,
