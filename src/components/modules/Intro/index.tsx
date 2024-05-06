@@ -14,7 +14,7 @@ const Intro = () => (
           Hi There!
         </h1>
         <h2 className="mb-[2.5rem] text-2xl md:text-4xl text-brand-secondary dark:text-slate-200 typography">
-          I’m John and I’m a JAMStack engineer!
+          I’m Alex Arroyo and I’m a PERN Stack Engineer!
         </h2>
         <Link href="#contact" className="button button-primary">
           Hire me
@@ -23,7 +23,7 @@ const Intro = () => (
       <div className="flex-1 w-full md:w-1/2">
         <Image
           src="/assets/illustrations/dev.svg"
-          alt="I’m John and I’m a JAMStack engineer!"
+          alt="I’m Alex Arroyo and I’m a PERN Stack Engineer!"
           width={463}
           height={273}
           priority

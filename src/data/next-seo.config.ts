@@ -1,6 +1,6 @@
 const seoConfig = {
-  title: 'John Doe',
-  description: 'I’m John and I’m a Backend & Devops engineer!',
+  title: 'Alex Arroyo',
+  description: 'I’m Alex Arroyo and I’m a Full-Stack SoftwaRE Engineer!',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -11,7 +11,7 @@ const seoConfig = {
         url: 'https://portfolio-next.smakosh.com/assets/thumbnail/thumbnail.png',
         width: 1200,
         height: 600,
-        alt: 'I’m John and I’m a Backend & Devops engineer!',
+        alt: 'I’m Alex Arroyo and I’m a Full-Stack Software Engineer!',
         type: 'image/png',
       },
     ],

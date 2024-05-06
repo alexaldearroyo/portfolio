@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="container flex items-center md:items-end text-center md:text-left justify-between flex-col md:flex-row">
       <div className="mb-8 md:mb-0">
         <h2 className="text-brand-primary min-[2170px]:dark:text-white font-bold text-2xl mb-4">
-          John Doe
+          Alex Arroyo
         </h2>
         <span className="text-brand-primary min-[2170px]:dark:text-white">
           © All rights are reserved | {new Date().getFullYear()} | Made with{' '}
