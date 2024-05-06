@@ -2,13 +2,13 @@
   {
     "id": 0,
     "name": "Telegram",
-    "link": "https://t.me/smakosh",
+    "link": "https://t.me/alexaldearroyo",
     "icon": "/assets/social/telegram.svg"
   },
   {
     "id": 1,
     "name": "Github",
-    "link": "https://github.com/smakosh",
+    "link": "https://github.com/alexaldearroyo",
     "icon": "/assets/social/github.svg"
   },
   {
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Twitter",
-    "link": "https://twitter.com/smakosh",
+    "link": "https://twitter.com/alexaldearroyo",
     "icon": "/assets/social/twitter.svg"
   }
 ]
