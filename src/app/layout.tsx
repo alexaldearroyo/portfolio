@@ -1,5 +1,6 @@
+// src/app/layout.tsx
 import '../components/ui/globals.css';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Roboto } from 'next/font/google';
 import { ReactNode } from 'react';
 import config from '../data/config';
@@ -29,7 +30,6 @@ export const metadata: Metadata = {
     shortcut: '/assets/favicon/favicon.ico',
     apple: '/assets/favicon/apple-touch-icon.png',
   },
-  themeColor: '#6b63ff',
   twitter: {
     card: 'summary_large_image',
     creator: twitter,
@@ -40,6 +40,10 @@ export const metadata: Metadata = {
   manifest: '/assets/favicon/site.webmanifest',
   metadataBase: new URL(url),
 };
+
+// export const viewport: Viewport = {
+//   themeColor: '6b63ff',
+// };
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -54,6 +58,10 @@ type RootLayoutProps = {
 
 const RootLayout = ({ children }: RootLayoutProps) => (
   <html lang="en" className={`${roboto.variable} font-sans scroll-smooth`}>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="theme-color" content="#6b63ff" />
+    </head>
     <body>{children}</body>
   </html>
 );
