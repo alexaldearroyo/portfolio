@@ -1,6 +1,6 @@
 // src/app/layout.tsx
 import '../components/ui/globals.css';
-import type { Metadata, Viewport } from 'next';
+import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import { ReactNode } from 'react';
 import config from '../data/config';
